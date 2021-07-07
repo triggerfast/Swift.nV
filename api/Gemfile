@@ -4,11 +4,11 @@ source 'https://rubygems.org'
 gem 'sinatra'
 
 # DataMapper gems
-gem 'dm-core'
-gem 'dm-timestamps'
-gem 'dm-migrations'
-gem 'dm-serializer'
-gem 'dm-sqlite-adapter'
+gem 'dm-core', '>= 1.2.1'
+gem 'dm-timestamps', '>= 1.2.0'
+gem 'dm-migrations', '>= 1.2.0'
+gem 'dm-serializer', '>= 1.2.2'
+gem 'dm-sqlite-adapter', '>= 1.2.0'
 
 # Bcrypt
 gem 'bcrypt'
