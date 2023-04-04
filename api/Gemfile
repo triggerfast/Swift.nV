@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 # Sinatra
-gem 'sinatra'
+gem 'sinatra', '>= 2.2.3'
 
 # DataMapper gems
 gem 'dm-core'
